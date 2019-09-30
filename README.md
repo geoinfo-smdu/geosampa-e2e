@@ -10,16 +10,9 @@ git clone https://github.com/geoinfo-smdu/geosampa-e2e.git
 cd geosampa-e2e
 npm i
 
-# inicie os testes para geosampa.prefeitura.sp.gov.br
-cd geosampa.prefeitura.sp.gov.br
-npm run test
+# inicie em modo client
+npm run test:run
 
-# inicie testes para geosampa.prefeitura.sp.gov.br
-cd geosampa.prefeitura.sp.gov.br
-npm run test
-
-# inicie testes para mapas.geosampa.prodam
-cd mapas.geosampa.prodam
-npm run test
-
+# inicie em modo de desenvolvimento (com browser e cypress)
+npm run test:open
 ```
