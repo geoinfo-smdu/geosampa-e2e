@@ -1,5 +1,8 @@
 # geosampa-e2e
-Testes "end-to-end" do portal geosampa
+Testes end-to-end do portal geosampa
+
+## Pré-requisito
+[Nodejs](https://nodejs.org/)
 
 ## Setup
 ```bash
@@ -10,7 +13,7 @@ git clone https://github.com/geoinfo-smdu/geosampa-e2e.git
 cd geosampa-e2e
 npm i
 
-# inicie em modo client
+# inicie em modo de linha de comando
 npm run test:run
 
 # inicie em modo de desenvolvimento (com browser e cypress)
