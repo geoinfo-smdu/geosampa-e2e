@@ -7,7 +7,7 @@
   "devDependencies": {
     "cypress": "^3.4.1"
   },
-  "scripts":{
+  "scripts": {
     "test:run": "cypress run",
     "test:open": "cypress open"
   },
