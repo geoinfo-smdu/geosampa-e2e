@@ -1,0 +1,26 @@
+language: node_js
+node_js:
+ - stable
+
+addons:
+ apt:
+  packages:
+   - libgconf-2-4
+
+cache:
+ npm: true
+ directories:
+ - ~/.cache
+
+branches:
+ only:
+  - master
+
+install:
+ - npm install
+
+notifications:
+  webhooks: https://www.travisbuddy.com
+
+after_success:
+ - echo "Sucesso! Passando em todos os testes."
