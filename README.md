@@ -1,5 +1,5 @@
 # geosampa-e2e
-Testes end-to-end do portal geosampa
+Testes end-to-end do portal geosampa.
 
 # objetivo
 Pretendemos aqui com esse repositório criar um canal de comunicação com toda a sociedade, e principalmente, usuários do [Geosampa](http://geosampa.prefeitura.sp.gov.br) que queiram relatar um problema ou sugerir uma atualização. Mas sobretudo faz parte de uma estratégia de disponibilizar o SIG da cidade em código aberto, dando mais transparência aos dados, sistemas e processos da Prefeitura do Município de São Paulo comprometida com o princípio de governo aberto.
